@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/font-awesome.css"> <!--link:css ES UN ATAJO-->
+    
+    <script src="./js/jquery-3.5.1.js"></script> <!--script:src ES UN ATAJO-->
+    <script src="./js/script.js"></script>
+
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+
+    <section class="form_wrap"> <!--ATAJO PARA LA CLASS EJ: section.form_wrap-->
+        <!--Seccion de información de contacto-->
+        <section class="contact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACIÓN</br> DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> braulio.93rojas.br@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +569 7865 6732</p>
+            </section>
+        </section>
+        <!--Sección de formulario-->
+        <form action="" class="form_contact">
+            <h2>Envia un Mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefono / Celular </label>
+                <input type="text" id="phone">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" ></textarea>
+            
+                <input type="button" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+    </section> 
+
+</body>
+</html>
